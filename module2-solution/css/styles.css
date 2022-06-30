@@ -10,14 +10,13 @@ h1 {
   font-family: cursive;
 }
 
-#menuitem {
+.menuitem {
   background-color: #999999; /* gray */
   border: 1px solid black;
   margin: 12px;
 }
 
-#itemtext {
-  /* background-color: #555555; */
+.itemtext {
   clear: right;
   padding:  10px;
 }
@@ -30,19 +29,19 @@ h1 {
   float:  right;
   position: relative;
   right: 0px;
-  top:  -1px;
+  top:  -1px; /* Seems to be necessary. But why? */ 
 }
 
 #chicken {
-  background-color: #D59898;
+  background-color: #D59898; /* pink */
 }
 
 #beef {
-  background-color: #C14543;
+  background-color: #C14543; /* red */
 }
 
 #sushi {
-  background-color: #E5D198;
+  background-color: #E5D198; /* yellow */
 }
 
 /* Simple Responsive Framework. */
